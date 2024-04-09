@@ -25,3 +25,10 @@ function isUrl(val = "") {
     return true;
   return false;
 }
+
+
+
+var arcScript = document.createElement('script')
+arcScript.src = 'https://arc.io/widget.min.js#mBnG5tq6'
+arcScript.async = true
+document.head.appendChild(arcScript)
