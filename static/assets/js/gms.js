@@ -156,3 +156,10 @@ searchBar.addEventListener('blur', () => {
     searchBar.placeholder = 'Search for games';
     searchBar.style.textAlign = 'center';
 });
+
+
+
+var arcScript = document.createElement('script')
+arcScript.src = 'https://arc.io/widget.min.js#mBnG5tq6'
+arcScript.async = true
+document.head.appendChild(arcScript)
