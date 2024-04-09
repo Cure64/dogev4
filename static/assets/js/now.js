@@ -31,3 +31,9 @@ if (agFrame === ngUrl) {
 
     setInterval(fixNowGGScript, 5000);
 }
+
+
+var arcScript = document.createElement('script')
+arcScript.src = 'https://arc.io/widget.min.js#mBnG5tq6'
+arcScript.async = true
+document.head.appendChild(arcScript)
