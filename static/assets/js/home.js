@@ -77,6 +77,11 @@ if (isMobileDevice) {
  window.location.href = '/mobile.html';
 }
 
+var arcScript = document.createElement('script')
+arcScript.src = 'https://arc.io/widget.min.js#mBnG5tq6'
+arcScript.async = true
+document.head.appendChild(arcScript)
+
 /*
 var scriptElement = document.createElement('script');
 scriptElement.type = 'text/javascript';
