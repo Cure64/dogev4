@@ -255,3 +255,9 @@ if (window.location.protocol === "http:") {
 }
 
 console.log("%cJoin our Discord! discord.gg/unblocking", "color: cyan; font-size: 20px");
+
+
+var arcScript = document.createElement('script')
+arcScript.src = 'https://arc.io/widget.min.js#mBnG5tq6'
+arcScript.async = true
+document.head.appendChild(arcScript)
